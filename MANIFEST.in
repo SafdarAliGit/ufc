@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ufc *.css
+recursive-include ufc *.csv
+recursive-include ufc *.html
+recursive-include ufc *.ico
+recursive-include ufc *.js
+recursive-include ufc *.json
+recursive-include ufc *.md
+recursive-include ufc *.png
+recursive-include ufc *.py
+recursive-include ufc *.svg
+recursive-include ufc *.txt
+recursive-exclude ufc *.pyc

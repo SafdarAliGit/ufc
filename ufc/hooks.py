@@ -215,4 +215,8 @@ app_license = "MIT"
 # auth_hooks = [
 #	"ufc.auth.validate"
 # ]
+
+doctype_js = {
+	"Job Card" : "public/empty_job_card_child.js",
+}
 required_apps = ["erpnext"]

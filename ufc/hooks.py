@@ -221,4 +221,5 @@ required_apps = ["erpnext"]
 
 doctype_js = {
 	"BOM" : "public/sum_of_overhead_account.js",
+	"Job Card" : "public/get_bom_and_operations.js"
 }

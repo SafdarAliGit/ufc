@@ -25,6 +25,6 @@ function calculate_net_total_amount(frm) {
     frm.set_value("net_amount", net_amount);
     frm.set_value("total_amount", total_amount);
     frm.set_value("total_cost", total_amount + total_cost);
-    
+
 }
 

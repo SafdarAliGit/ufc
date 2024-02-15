@@ -216,7 +216,9 @@ app_license = "MIT"
 #	"ufc.auth.validate"
 # ]
 
-doctype_js = {
-	"Job Card" : "public/empty_job_card_child.js",
-}
+
 required_apps = ["erpnext"]
+
+doctype_js = {
+	"BOM" : "public/sum_of_overhead_account.js",
+}

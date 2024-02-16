@@ -11,7 +11,7 @@ function get_operating_cost(frm, bom_no, operation) {
     // Call the whitelisted server-side function
     frappe.call({
         method: 'ufc.ufc.doctype.utils.get_bom_and_operations.get_bom_and_operations',
-        args: {'bom_id': bom_no, 'operation': operation}, // Replace 'your_bom_id' with the actual ID of the BOM
+        args: {'bom_id': bom_no, 'operation': operation},
         callback: function (response) {
             var data = response.message;
 

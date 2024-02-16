@@ -223,3 +223,9 @@ doctype_js = {
 	"BOM" : "public/sum_of_overhead_account.js",
 	"Job Card" : "public/get_bom_and_operations.js"
 }
+
+doc_events = {
+	"Job Card":{
+		"on_submit": "ufc.overrides.pass_job_card_je.pass_job_card_je",
+	}
+}
